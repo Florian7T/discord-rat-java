@@ -3,6 +3,8 @@ a RAT which injects into discord and uses discord as a 'C&amp;C'
 
 Of course only for educational purposes!
 
+**I REALLY RECOMMEND READING THE SOURCE BEFORE USING THE RAT THIS WILL HELP A LOT USING IT**
+
 This RAT is made to be controlled from a discord channel using a discord bot. It supports unlimited 'victims' using the bot is a little tough but not that hard.
 
 The RAT can:
@@ -18,3 +20,5 @@ The RAT can:
 - /isolate <id/alias>: select a pc (or pcs if they have the same alias and you input that alias)
 - /alias <bot_id> <alias> &amp; /whois <alias>: give victim pcs an alias (makes it easier in the C&amp;C) -- multiple pcs can have the same nickname (making you able to run a command on multiple pcs) but since they keep their unique ID you wont be stuck looking for which is which
 - /notrace: removes itself and the injection from the victims pc leaving no traces
+
+The injector is just a basic js injection into one of discord's local files using subprocess. Look into it Idk if it works I just pasted some stuff I used in another program into that file.
